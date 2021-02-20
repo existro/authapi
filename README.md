@@ -17,3 +17,12 @@ To get started deploying a Custom Built project with Vercel, you can use the [Ve
 ```shell
 $ vercel init custom-build
 ```
+
+Para ejecutarlo se necesita instalar express mongoose body-parser cors: 
+npm i -S express mongoose body-parser cors 
+
+agrega la variable de entorno en un archivo .env en la raiz, sustituyendo los parametros quita todo "<variable>":
+mongodb+srv://<user>:<password>@existro.jtfcs.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+
+
